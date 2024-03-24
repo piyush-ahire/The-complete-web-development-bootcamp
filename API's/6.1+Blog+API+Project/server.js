@@ -67,6 +67,9 @@ app.post("/api/posts/:id", async (req, res) => {
   }
 });
 
+
+
+
 // Delete a post
 app.get("/api/posts/delete/:id", async (req, res) => {
   try {
